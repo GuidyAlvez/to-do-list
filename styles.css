@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+
+    .didact-gothic-regular {
+        font-family: "Didact Gothic", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+
+}
+
+body {
+    background: url("./img/background1.png");
+}
+
+.container {
+    background-color: #d1d1d1dd;
+    border-width: 10px;
+    border-color: black;
+    width: 500px;
+    border-radius: 80px;
+    padding: 30px;
+    margin: 100px auto 0;
+}
+
+.input-task {
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    height: 40px;
+    padding-left: 15px;
+}
+
+.button-add-task {
+    border-width: 01px;
+    border-radius: 15px;
+    height: 40px;
+    background-color: #44b2da;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 11px;
+    float: right;
+    cursor: pointer;
+
+}
+
+.button-task:hover {
+    opacity: 0.8;
+}
+
+.button-task:active {
+    opacity: 0.6;
+}
+
+.list-task {
+    width: 100%;
+    height: 50px;
+    list-style: none;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.task {
+    background-color: rgba(37, 149, 132, 0.529);
+    box-shadow: 1px 4px 10px rgba (0, 0, 0, 0.2);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 100px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+
+
+}
+
+img {
+    height: 25px;
+    opacity: 0;
+    transition: opacity o.5s ease-in-out;
+    cursor: pointer;
+
+}
+
+.task:hover img {
+    opacity: 1;
+}
+
+.done {
+    background-color: #9a8f28;
+    text-decoration: line-through;
+
+}
+.clock {
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid #000;
+    border-radius:1000px;
+    color: #777cc6;
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    height: 100px;
+    width: 250px;
+    width: 100px;
+    border-radius: 80px;
+    padding: 10px;
+    margin: 10px auto 0;
+  }
